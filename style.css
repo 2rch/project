@@ -4,6 +4,9 @@ aside {
     width: 200px;
     float: left;
 }
+body{
+    background: #ececec;
+}
 .aside {
     padding: 15px;
     background: white;
@@ -49,8 +52,9 @@ aside {
     color: white;
 }
 main {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 240px;
+    margin-bottom: 309px;
 }
 article{
     margin-top: 10px;
@@ -60,6 +64,48 @@ article{
     width: 720px;
     height: 480px;
     margin: 0 auto;
+}
+.content{
+    margin-top: 50px;
+}
+.product {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #c0c0c0;
+    float: left;
+    height: 390px;
+    width: 250px;
+    overflow: hidden;
+    padding: 25px 15px;
+    position: relative;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+.product:hover {
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+}
+.product-img {
+    height: 200px;
+    max-width: 100%;
+}
+.product-title a {
+    color: #000;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.product-desc {
+    max-height: 60px;
+    overflow: hidden;
+}
+.product-price {
+    bottom: 15px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    color: #d51e08;
+    font-size: 18px;
+    font-weight: 500;
 }
 footer {
     color: #aaaaaa;
