@@ -1,0 +1,74 @@
+aside {
+    background: #f0f0f0;
+    padding: 10px;
+    width: 200px;
+    float: left;
+}
+.aside {
+    padding: 15px;
+    background: white;
+    width: 200px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,.1);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.aside h3 {
+    font-size: 16px;
+    color: rgba(0,0,0,.6);
+    margin: 0 0 10px;
+    padding: 0 5px;
+    position: relative;
+}
+.aside h3:after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #80C8A0;
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    box-shadow: -8px -8px #80C8A0, 0 -8px #80C8A0, -8px 0 #80C8A0;
+}
+.aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgba(0,0,0,.3);
+}
+.aside li {margin: 12px 0 0 0px;}
+.aside a {
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    color: rgba(0,0,0,.6);
+    padding: 5px;
+    position: relative;
+    transition: .3s linear;
+}
+.aside a:hover {
+    background: #80C8A0;
+    color: white;
+}
+main {
+    margin-top: 10px;
+    margin-left: 240px;
+}
+article{
+    margin-top: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#carousel{
+    width: 720px;
+    height: 480px;
+    margin: 0 auto;
+}
+footer {
+    color: #aaaaaa;
+    font-size: 15px;
+    border-top: 1px solid #aaaaaa;
+    padding-top: 10px;
+    margin-top: 30px;
+    line-height: 2px;
+    position: fixed;
+    right: 0; bottom: 0;
+    width: 100%;
+    background-color: #292929;}
