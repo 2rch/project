@@ -141,6 +141,29 @@ footer {
     font-size: 20px;
     margin-right: 15px;
 }
+.product-cart {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #c0c0c0;
+    height: 240px;
+    width: 1000px;
+    float: left;
+    padding: 25px 15px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+.cart-text{
+    float: left;
+    margin-left: 20px;
+    width: auto;
+}
+.cart-pic{
+    height: 200px;
+    max-width: 100%;
+    margin-right: 40px;
+    float: left;
+}
 @media (max-width: 500px) {
     .container {
         text-align: center;
