@@ -8,7 +8,7 @@
 </head>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a href="index.php"><img src="pics/logo.jpg" width="70" height="46" </a>
+    <a href="index.php"><img src="pics/logo.jpg" width="70" height="46" alt="I.sh"> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -27,7 +27,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Авторизация</a>
+                <a class="nav-link" href="log.php">Авторизация</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Техподдержка</a>
