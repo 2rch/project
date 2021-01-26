@@ -1,21 +1,4 @@
-<?php include("header.php");
-require_once __DIR__ . '/autoload.php'?>
-<aside>
-    <div class="aside">
-        <h3>Категории</h3>
-        <ul>
-            <li><a href="">Casual тремпели</a></li>
-            <li><a href="">Дизайнерские тремпели</a></li>
-            <li><a href="">Вычурные тремпели</a></li>
-            <li><a href="">Тремпель на заказ</a></li>
-            <li><a href="">Ещё тремпель</a></li>
-        </ul>
-    </div>
-</aside>
 <main>
-    <?php $renderer = new TemplateRender();
-    $renderer->render('products', 'layout'); ?>
-    <!--
     <div id="carousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -24,13 +7,13 @@ require_once __DIR__ . '/autoload.php'?>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="pics/1.jpg" width="720" height="480" alt="Первый тремпель">
+                <img class="d-block w-100" src="../public/html/pics/1.jpg" width="720" height="480" alt="Первый тремпель">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="pics/2.jpg" width="720" height="480" alt="Второй тремпель">
+                <img class="d-block w-100" src="../public/html/pics/2.jpg" width="720" height="480" alt="Второй тремпель">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="pics/3.jpg" width="720" height="480" alt="Третий тремпель">
+                <img class="d-block w-100" src="../public/html/pics/3.jpg" width="720" height="480" alt="Третий тремпель">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -49,6 +32,5 @@ require_once __DIR__ . '/autoload.php'?>
         <p>laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
         <p>voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
         <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </article> -->
+    </article>
 </main>
-<?php include("footer.php"); ?>
