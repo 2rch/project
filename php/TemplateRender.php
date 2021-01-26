@@ -1,6 +1,7 @@
 <?php
 class TemplateRender
 {
+
     public function render(string $main, string $header, string $footer)
     {
         $templatePath = __DIR__ . '/../public/html/';
@@ -10,4 +11,5 @@ class TemplateRender
         require_once $templatePath . $header . '.php';
         require_once $templatePath . $footer . '.php';
     }
+    
 }
