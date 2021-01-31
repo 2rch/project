@@ -1,10 +1,11 @@
 <?php
+namespace Tools;
 class TemplateRender
 {
 
     public function render(string $main, string $header, string $footer)
     {
-        $templatePath = __DIR__ . '/../public/html/';
+        $templatePath = __DIR__ . '/../Views/';
         ob_start();
         require_once $templatePath . $main . '.php';
         $content = ob_get_clean();

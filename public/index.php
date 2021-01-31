@@ -1,8 +1,13 @@
 <?php
 require '../autoload.php';
-//$config = require '../conf/config.php';
+
+use \Models\Dbreader;
+use \Tools\logger\Logger;
+use \Tools\TemplateRender;
+use \Tools\Exceptions\IdException;
+//$config = require '../Config/config.php';
 $path = trim($_SERVER['REQUEST_URI'], '/');
-$products = require '../db/product-db.php';
+$products = require '../Database/product-db.php';
 $logger = new Logger();
 try
 {
