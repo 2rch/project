@@ -1,4 +1,5 @@
 <?php
+namespace Tools\logger;
 class Logger implements LoggerInterface
 {
     public $name;

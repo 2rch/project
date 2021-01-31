@@ -1,4 +1,5 @@
 <?php
+namespace Tools\logger;
 class LogLevel
 {
     const EMERGENCY = 'emergency';

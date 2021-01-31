@@ -13,7 +13,7 @@
 </head>
 <header>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a href="../public/index.php"><img src="../public/html/pics/logo.jpg" width="70" height="46" alt="I.sh"> </a>
+    <a href="../public/index.php"><img src="../public/pics/logo.jpg" width="70" height="46" alt="I.sh"> </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,7 +32,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../public/html/log.php">Авторизация</a>
+                <a class="nav-link" href="../public/log.php">Авторизация</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Техподдержка</a>
