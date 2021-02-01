@@ -20,6 +20,7 @@ class Router{
                 $this->params = $params;
                 return true;
             }
+            //echo trim($_SERVER['REQUEST_URI'], '/');
         }
         return false;
     }
@@ -28,5 +29,6 @@ class Router{
             $controller = 'Controllers\\' . ucfirst($this->params['controller']) . 'Controller.php';
             echo $controller;
         }
+        else echo "No matches!";
     }
 }

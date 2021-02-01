@@ -1,12 +1,10 @@
 <?php
 return [
-  '' => [
-      'controller' => 'main',
+    '' => ['controller' => 'main',
     'action' => 'show'],
     'account/login' => [
     'controller' => 'account',
     'action' => 'login'],
-    'account/register' => [
-        'controller' => 'account',
-        'action' => 'register'],
+    'account/register' => ['controller' => 'account',
+    'action' => 'register'],
 ];
