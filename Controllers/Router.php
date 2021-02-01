@@ -4,7 +4,7 @@ class Router{
     protected  $routes = [];
     protected $params = [];
     public function __construct(){
-        $arr = require 'Config/routes.php';
+        $arr = require '../Config/routes.php';
         foreach ($arr as $key => $val){
             $this->addRoute($key, $val);
         }
@@ -22,5 +22,11 @@ class Router{
             }
         }
         return false;
+    }
+    public function run(){
+        if ($this->match()){
+            $controller = 'Controllers\\' . ucfirst($this->params['controller']) . 'Controller.php';
+            echo $controller;
+        }
     }
 }
