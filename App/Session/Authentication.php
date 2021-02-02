@@ -1,9 +1,10 @@
 <?php
+namespace App\Session;
 
 class Authentication
 {
-    public $login;
-    public $pass;
+    public string $login;
+    public string $pass;
 
     public function auth(string $login, string $pass): bool
     {
@@ -20,7 +21,6 @@ class Authentication
         } else {
             return false;
         }
-
     }
 
     public function getLogin(): string

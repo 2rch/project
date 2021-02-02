@@ -1,5 +1,7 @@
 <?php
+
 namespace App\Tools\logger;
+
 class LogLevel
 {
     const EMERGENCY = 'emergency';
