@@ -1,6 +1,8 @@
 <?php
 namespace App\Models;
+
 use Tools\Exceptions\IdException;
+
 class Dbreader
 {
     /**
