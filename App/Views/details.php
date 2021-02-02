@@ -13,7 +13,7 @@
     </ul>
     <div class="tab-content">
         <div class="tab-pane fade show active" id="description">
-            <img class="details-pic" src="../public/html/pics/c1.jpg" alt="Тремпель">
+            <img class="details-pic" src="pics/c1.jpg" alt="Тремпель">
             <p>      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
@@ -31,12 +31,12 @@
         </div>
         <div class="tab-pane fade" id="opinion">
             <div class="container">
-                <img src="../public/html/pics/c4.jpg" alt="Avatar" style="width:90px">
+                <img src="pics/c4.jpg" alt="Avatar" style="width:90px">
                 <p><span>Саня Турчинов</span> Тремпелист</p>
                 <p>Лучший тремпель в моей жизни!</p>
             </div>
             <div class="container">
-                <img src="../public/html/pics/c4.jpg" alt="Avatar" style="width:90px">
+                <img src="pics/c4.jpg" alt="Avatar" style="width:90px">
                 <p><span >Алекссс</span> Хейтер</p>
                 <p>Ненавижу этот сайт</p>
             </div>

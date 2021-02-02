@@ -7,13 +7,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="../public/pics/1.jpg" width="720" height="480" alt="Первый тремпель">
+                <img class="d-block w-100" src="pics/1.jpg" width="720" height="480" alt="Первый тремпель">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../public/pics/2.jpg" width="720" height="480" alt="Второй тремпель">
+                <img class="d-block w-100" src="pics/2.jpg" width="720" height="480" alt="Второй тремпель">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="../public/pics/3.jpg" width="720" height="480" alt="Третий тремпель">
+                <img class="d-block w-100" src="pics/3.jpg" width="720" height="480" alt="Третий тремпель">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
