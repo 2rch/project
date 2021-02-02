@@ -1,24 +1,24 @@
 <?php
-require '../autoload.php';
+require '../vendor/autoload.php';
+//require '../autoload.php';
+use App\Models\Dbreader;
+use App\Tools\logger\Logger;
+use App\Tools\TemplateRender;
 
-use \Models\Dbreader;
-use \Tools\logger\Logger;
-use \Tools\TemplateRender;
-use \Tools\Exceptions\IdException;
-//$config = require '../Config/config.php';
+$config = require '../App/Config/config.php';
 $path = trim($_SERVER['REQUEST_URI'], '/');
-$products = require '../Database/product-db.php';
+$products = require '../App/Database/product-db.php';
 $logger = new Logger();
 try
 {
     $db = new Dbreader($products);
-    $product = $db->getByID(8);
+    $product = $db->getByID(3);
     echo implode($product);
     $renderer = new TemplateRender();
     $renderer->render('main', 'header', 'footer');
 }
 catch (\Exception $error){
-    $logger->warning($error, ['id' => 8]);
+    $logger->warning($error, ['id' => 3]);
     echo $error;
 }
 
