@@ -1,7 +1,7 @@
 <?php
 namespace App\Models;
 
-use Tools\Exceptions\IdException;
+use App\Tools\Exceptions\IdException;
 
 class Dbreader
 {
