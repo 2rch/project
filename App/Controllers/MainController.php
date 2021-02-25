@@ -7,7 +7,7 @@ use App\Tools\TemplateRender;
 
 class MainController extends Controller
 {
-    public function indexAction()
+    public function index()
     {
         $renderer = new TemplateRender();
         $renderer->render('main', 'header', 'footer');

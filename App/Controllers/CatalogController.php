@@ -7,7 +7,7 @@ use App\Tools\TemplateRender;
 
 class CatalogController extends Controller
 {
-    public function indexAction()
+    public function index()
     {
         $renderer = new TemplateRender();
         $renderer->render('catalog', 'header', 'footer');

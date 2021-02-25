@@ -7,7 +7,7 @@ use App\Tools\TemplateRender;
 
 class CartController extends Controller
 {
-    public function indexAction()
+    public function index()
     {
         $renderer = new TemplateRender();
         $renderer->render('cart', 'header', 'footer');

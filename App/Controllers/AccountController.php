@@ -7,12 +7,12 @@ use App\Tools\TemplateRender;
 
 class AccountController extends Controller
 {
-    public function loginAction()
+    public function login()
     {
         $renderer = new TemplateRender();
         $renderer->render('log', 'header', 'footer');
     }
-    public function registerAction()
+    public function register()
     {
         $renderer = new TemplateRender();
         $renderer->render('reg', 'header', 'footer');
