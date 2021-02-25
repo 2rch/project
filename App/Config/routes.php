@@ -3,10 +3,10 @@ return [
     '' => [
         'controller' => 'main','
         action' => 'index'],
-    'account/login' => [
+    'login' => [
         'controller' => 'account',
         'action' => 'login'],
-    'account/register' => [
+    'register' => [
         'controller' => 'account',
         'action' => 'register'],
     'cart' => [

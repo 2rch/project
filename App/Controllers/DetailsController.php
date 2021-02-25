@@ -7,7 +7,7 @@ use App\Tools\TemplateRender;
 
 class DetailsController extends Controller
 {
-    public function indexAction()
+    public function index()
     {
         $renderer = new TemplateRender();
         $renderer->render('details', 'header', 'footer');
