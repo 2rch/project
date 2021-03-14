@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Page</title>
+    <script src="js/app.js" defer></script>
 </head>
 <header>
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
