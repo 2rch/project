@@ -17,7 +17,7 @@ $router->run();
 try {
     $db = new Dbreader($products);
     $product = $db->getByID(2);
-    echo implode($product);
+    //echo implode($product);
     $renderer = new TemplateRender();
     $renderer->render('main', 'header', 'footer');
 } catch (\Exception $error) {

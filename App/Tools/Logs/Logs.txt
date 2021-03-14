@@ -1,0 +1,1 @@
+[2021-02-07T18:08:52.650242+02:00] name.WARNING: App\Tools\Exceptions\IdException: Wrong ID in /home/turch/desktop/project/App/Models/Dbreader.php:25 Stack trace: #0 /home/turch/desktop/project/public/index.php(17): App\Models\Dbreader->getByID() #1 {main} {"id":8} []

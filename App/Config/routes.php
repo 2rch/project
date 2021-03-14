@@ -1,8 +1,8 @@
 <?php
 return [
     '' => [
-        'controller' => 'main','
-        action' => 'index'],
+        'controller' => 'main',
+        'action' => 'index'],
     'login' => [
         'controller' => 'account',
         'action' => 'login'],
@@ -18,4 +18,8 @@ return [
     'details' => [
         'controller' => 'details',
         'action' => 'index'],
+    'data' => [
+        'controller' => 'data',
+        'action' => 'index'
+    ]
 ];
