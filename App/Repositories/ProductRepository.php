@@ -43,7 +43,7 @@ class ProductRepository
         $data = $this->connect->prepare($request);
         $data->execute(['category' => $category]);
         $data->setFetchMode(PDO::FETCH_CLASS, 'App\Models\Product');
-        return $data->fetch();
+        return $data->fetchAll();
     }
 
     public function create(
@@ -103,5 +103,16 @@ class ProductRepository
         $data = $this->connect->prepare($request);
         $data->execute(['id' => $id]);
         return true;
+    }
+
+    public function search(string $keyword)
+    {
+        $request = "SELECT id, title, img, description, price, category, ammount
+                    FROM products
+                    WHERE title LIKE = '%:keyword%'";
+        $data = $this->connect->prepare($request);
+        $data->execute(['keyword' => $keyword]);
+        $data->setFetchMode(PDO::FETCH_CLASS, 'App\Models\Product');
+        return $data->fetchAll();
     }
 }
