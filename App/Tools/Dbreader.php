@@ -1,5 +1,5 @@
 <?php
-namespace App\Models;
+namespace App\Tools;
 
 use App\Tools\Exceptions\IdException;
 

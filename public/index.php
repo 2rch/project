@@ -2,7 +2,7 @@
 
 require '../vendor/autoload.php';
 
-use App\Models\Dbreader;
+use App\Tools\Dbreader;
 use Monolog\Logger;
 use libraries\Router;
 use Dotenv\Dotenv;
