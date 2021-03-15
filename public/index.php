@@ -4,10 +4,12 @@ require '../vendor/autoload.php';
 
 use App\Models\Dbreader;
 use Monolog\Logger;
-//use App\Tools\logger\Logger;
 use App\Tools\TemplateRender;
+use Dotenv\Dotenv;
 
-//$config = require '../App/Config/config.php';
+$dotenv = Dotenv::createImmutable(__DIR__ . '/../');
+$dotenv->load();
+
 $path = trim($_SERVER['REQUEST_URI'], '/');
 $products = require '../App/Database/product-db.php';
 $logger = new Logger('name');
