@@ -1,5 +1,5 @@
 <?php
-namespace App\Session;
+namespace libraries;
 
 class Authentication
 {

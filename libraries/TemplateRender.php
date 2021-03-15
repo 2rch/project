@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Tools;
+namespace libraries;
 
 use App\Tools\Exceptions\PathException;
 use App\Tools\Exceptions\RenderException;
@@ -9,7 +9,7 @@ class TemplateRender
 {
     public function render(string $main, string $header, string $footer)
     {
-        $templatePath = __DIR__ . '/../Views/';
+        $templatePath = __DIR__ . '/../App/Views/';
         if (empty($header) || empty($footer) || empty($main))
         {
             throw new RenderException('Template Render working with three params.');

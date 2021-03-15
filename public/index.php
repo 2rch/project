@@ -4,8 +4,9 @@ require '../vendor/autoload.php';
 
 use App\Models\Dbreader;
 use Monolog\Logger;
-use App\Tools\TemplateRender;
+use libraries\Router;
 use Dotenv\Dotenv;
+use libraries\TemplateRender;
 
 $dotenv = Dotenv::createImmutable(__DIR__ . '/../');
 $dotenv->load();
@@ -13,7 +14,7 @@ $dotenv->load();
 $path = trim($_SERVER['REQUEST_URI'], '/');
 $products = require '../App/Database/product-db.php';
 $logger = new Logger('name');
-$router = new \App\Controllers\Router;
+$router = new Router;
 $router->run();
 
 try {
