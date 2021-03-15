@@ -15,7 +15,8 @@ class DatabaseConnection
      * @param string|null $password
      * @return PDO
      */
-    public function __construct($host, $db_name, $user,$password)
+
+    public function __construct(string $host, string $db_name, string $user, string $password)
     {
         $this->host = $host ? $host : getenv('DB_HOST');
         $this->db_name = $db_name ? $db_name : getenv('DB_NAME');
